@@ -20,7 +20,7 @@
         justify-content: center;
         gap: 20px;
         padding-top: 30px;
-        padding-left: 80px;
+        padding-left: 60px;
         width: 20%;
     }
 
@@ -31,8 +31,9 @@
 
     .banner-img img {
         align-items: center;
-        /* width: 202px; */
-        height: 190px;
+        width: 200px;
+        height: auto;
+        padding-left: 5px;
     }
 
     .banner-title {
@@ -40,7 +41,6 @@
         font-size: 30px;
         font-weight: 700;
         width: 100%;
-        margin: auto;
     }
     .banner-description{
         padding-top: 10px;
@@ -49,7 +49,11 @@
     }
     .btn-main{
         align-items: center;
-        margin-left: 30px;
-        margin-top: 10px;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    .partner img{
+
+        flex-wrap: wrap
     }
 }

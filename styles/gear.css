@@ -62,11 +62,98 @@
     font-size: 16px;
     font-weight: 700;
 }
+
 .banner-img img {
     background-image: url('../images/Circle\ design.svg');
     background-repeat: no-repeat;
     margin-right: 100px;
     margin-top: 50px;
     /* border: 2px solid red; */
-    /* width: 100%; */
+    max-width: 100%;
+}
+
+/* partner section design */
+.partner img {
+    margin-left: 70px;
+    margin-right: 50px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    gap: 10px;
+}
+
+/* popular section design */
+.popular-title {
+    text-align: center;
+}
+
+.popular-collection {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 50px;
+    gap: 40px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.box {
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    width: 310px;
+    height: 420px;
+    padding: 20px;
+    /* margin-left: 150px;
+    margin-top: 100px;*/
+}
+
+/* feature section design */
+.feature {
+    display: flex;
+    justify-content: space-between;
+    margin: 150px;
+    gap: 100px;
+}
+
+.feature-title {
+    color: #0A0826;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.feature-description {
+    color: #6C6C6C;
+    font-size: 16px;
+    font-weight: 700;
+    width: 501px;
+    height: 88px;
+}
+
+#btn {
+    margin-top: 0px;
+}
+
+/* footer design */
+.footer {
+    text-align: center;
+    background: #0A0826;
+    color: #FFF;
+    padding: 100px;
+    margin: 0px;
+}
+
+.footer-title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.footer-description {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.footer-icons {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 16px;
 }
