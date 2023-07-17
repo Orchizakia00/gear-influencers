@@ -62,11 +62,11 @@
     font-size: 16px;
     font-weight: 700;
 }
-.banner-img {
+.banner-img img {
     background-image: url('../images/Circle\ design.svg');
     background-repeat: no-repeat;
     margin-right: 100px;
     margin-top: 50px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     /* width: 100%; */
 }
