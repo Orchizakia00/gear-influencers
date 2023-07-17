@@ -1,0 +1,30 @@
+@media screen and (max-width: 576px) {
+
+    .navbar,
+    .banner {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .logo {
+        text-align: center;
+    }
+
+    .nav-menu ul {
+        text-align: center;
+        margin: 0px;
+        justify-content: center;
+        gap: 20px;
+        padding-top: 10px;
+        padding-left: 5px;
+    }
+    .banner {
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    
+    .banner-img {
+        align-items: center;
+    }
+}
+
