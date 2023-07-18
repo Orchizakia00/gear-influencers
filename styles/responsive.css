@@ -1,59 +1,106 @@
 @media screen and (max-width: 576px) {
-    *{
-        margin: 0;
-        padding: 0;
-    }
-
-    .navbar,
-    .banner {
+    .navbar {
         flex-direction: column;
-        justify-content: center;
-    }
-
-    .logo {
-        text-align: center;
+        gap: 10px;
+        align-items: center;
+        /* flex-wrap: wrap; */
     }
 
     .nav-menu ul {
         text-align: center;
-        margin: 0px;
-        justify-content: center;
-        gap: 20px;
-        padding-top: 30px;
-        padding-left: 60px;
-        width: 20%;
+        /* border: 1px solid red; */
+        width: 100%;
+        /* flex-wrap: nowrap; */
+    }
+
+    .logo{
+        text-align: center;
+        padding-bottom: 10px;
+        font-size: 30px;
+
     }
 
     .banner {
         flex-direction: column-reverse;
+        align-items: center;
         justify-content: center;
     }
 
-    .banner-img img {
-        align-items: center;
+    .banner-img img{
         width: 200px;
         height: auto;
-        padding-left: 5px;
     }
-
-    .banner-title {
+    .banner-content{
         text-align: center;
-        font-size: 30px;
-        font-weight: 700;
+    }
+    .banner-title{
+        font-size: 28px;
         width: 100%;
+        margin: auto;
     }
     .banner-description{
-        padding-top: 10px;
         text-align: center;
-        width: 100%;
+        width: 90%;
+        margin: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
-    .btn-main{
-        align-items: center;
-        margin-left: 10px;
-        margin-top: 20px;
-    }
-    .partner img{
 
-        flex-wrap: wrap
+    /* partner section */
+    .partner img{
+        display: inline;
+        justify-content: space-around;
+        padding: auto;
+        gap: 20px;
+        margin: auto;
     }
+
+    /* popular section */
+    .popular-title{
+        text-align: center;
+    }
+    .popular-collection {
+        grid-template-columns: repeat(1, 1fr);
+        /* gap: 20px; */
+        margin-left: 10px;
+    }
+    .box {
+        width: 290px;
+        height: 400px;
+        /* padding: 20px; */
+        /* margin-left: 150px;
+        margin-top: 100px;*/
+    }
+    .box img{
+        width: 250px;
+    }
+
+    /* feature section */
+    .feature{
+        flex-direction: column-reverse;
+        justify-items: center;
+        align-items: center;
+    }
+    .feature-content{
+        text-align: center;
+    }
+    .feature-title{
+        font-size: 28px;
+        width: 60%;
+        margin: auto;
+    }
+    .feature-description {
+        margin: auto;
+    }
+    .feature-img img{
+        width: 300px;
+        margin-left: 2px;
+    }
+
+    /* footer */
+    .footer{
+        text-align: center;
+        border: none;
+    }
+
 }
